@@ -1,0 +1,244 @@
+/*css reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*utility classes*/
+#container{
+        max-width: 960px;
+        margin:2rem auto;
+        overflow:hidden;
+}
+
+.logo{
+    width:300px;
+}
+
+.btn{
+    display: inline-block;
+    padding: .4rem 1.5rem;
+    color:#333;
+    text-decoration: uppercase;
+    font-weight: bold;
+    background-color: #F1C40F;
+
+}
+
+/*header havbar*/
+#main-header{
+    background-color: #EEEEEE;
+    color: #333;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .8rem 2rem;
+    overflow: hidden;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    padding: 1rem 2rem;
+}
+
+#navbar ul li a{
+    color:#333;
+    font-size: 1.2rem;
+}
+
+.message-box{
+    margin: 1.5rem;
+    padding: .8rem;
+    text-align: center;
+}
+
+.message-box h1{
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.message-box  input{
+    display: block;
+    margin: auto;
+    width: 30%;
+    padding: .4rem;
+    margin-bottom: 1rem;
+}
+
+#features {
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;    
+    display: flex;
+    flex-direction: column;
+}
+
+#features .features{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+#features .features i{
+    color:#FF8c00;
+
+}
+
+#features .features div{
+    padding: 1rem;
+    margin-left: 3rem;
+}
+
+#features .features div h2{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+#how-it-works{
+    padding: 3rem;
+    margin:auto;
+    text-align: center;
+}
+
+#pricing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem .2rem;
+}
+
+.price-box{
+    border: solid #333 1.5px;
+    border-radius: 2px;
+    width:50%;
+    height: 350px;
+}
+
+.price-box:first-child{
+    margin-right: 1.2rem;
+}
+
+.price-box:last-child{
+    margin-left: 1.2rem;
+}
+
+.price-box h3{
+    background-color: #ddd;
+    font-size: 1.05rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.price-box h2{
+    padding: 1rem;
+}
+
+.price-box p{
+    padding:0 4rem 1rem ;
+}
+
+.price-box .btn{
+    display: inline-block;
+    margin: 1rem;
+}
+/*footer*/
+#main-footer{
+    background-color: #ccc;
+    padding: 1rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#main-footer a{
+    color:#333;
+    padding: .5rem 1rem;
+}
+
+/*tablet and smartphone*/
+@media (max-width:800px) {
+    #navbar{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem;
+    }
+
+    #navbar ul li{
+        padding: 1rem 1rem;
+    }
+
+    #features .features{
+        flex-direction: column;
+    }
+
+    #features .features div{
+        padding: 1rem;
+        margin: .5rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    #how-it-work{
+        padding: 1rem;
+
+    }
+
+    #how-it-work #video{
+        width: 80%;
+        height: 30%;
+    }
+
+    #pricing{
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    #pricing .price-box{
+        margin: 1rem;
+    }
+
+    .price-box:first-child{
+        margin-right: 0;
+    }
+
+    .price-box:last-child{
+        margin-left: 0;
+    }
+
+    #main-footer{
+        padding: 1rem .5rem;
+        margin-top: 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    
+}
+
