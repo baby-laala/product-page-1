@@ -9,6 +9,7 @@ Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Usage](#usage)
+- [Demo](#demo)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
@@ -36,6 +37,10 @@ This is a product landing page created as part of my certification project for f
 ## Usage
 
 To view the landing page, simply open the `index.html` file in your web browser.
+
+## Demo
+
+You can see a live demo of the product landing page [here](https://baby-laala.github.io/product-page-1/).
 
 ## Contributing
 
